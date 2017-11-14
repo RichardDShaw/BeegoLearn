@@ -13,7 +13,7 @@ func (c *MainController) Get() {
 	c.Data["Website"] = "beego.me"
 	c.Data["Email"] = "astaxie@gmail.com"
 	c.Data["Username"] = "Richard"
-	c.TplName = "Html.html"
+	c.TplName = "index.tpl"
 }
 func (c *MainController) Fun1() {
 	c.Ctx.WriteString("fun1")
